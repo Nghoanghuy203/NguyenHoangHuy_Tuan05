@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font_dark {
+    font-weight: 700;
+    color: #3e3e3f;
+}
+
+.font_light {
+    font-weight: 500;
+    color: #aaaeb6;
+}
+
+#wapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.header_left {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+    color: #59616f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header_nav-item {
+    padding: 22px;
+}
+
+.isSelect {
+    color: #00bdd6;
+    border-bottom: 4px solid #00bdd6;
+    font-weight: 600;
+}
+
+.header_right {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_search {
+    position: relative;
+    width: 370px;
+    height: 40px;
+}
+
+.header_search input {
+    width: 90%;
+    height: 100%;
+    border: 0;
+    background-color: #f3f4f6;
+    padding-left: 40px;
+}
+
+.header_search i {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+#center {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    margin-top: 60px;
+}
+
+.product_linktree {
+    display: flex;
+    color: #aaaeb6;
+}
+
+.linktree_now {
+    color: #3e3e3f;
+}
+
+.product_title {
+    margin-top: 20px;
+    font-size: 65px;
+}
+
+.product_rate {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.product_rate-left {
+    display: flex;
+}
+
+.product_rate-left img {
+    width: 110px;
+    height: 20px;
+}
+
+.product_rate-right {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.rate_right-item {
+    color: #2e2e2e;
+    display: flex;
+    font-size: 16px;
+}
+
+.rate_right-item i {
+    margin-right: 10px;
+}
+
+.product_img {
+    margin-top: 20px;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 10px; */
+}
+
+.product_img-big {
+    width: 97%;
+    padding-bottom: 10px;
+}
+
+.grid_4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.product_img-small {
+    width: 95%;
+}
